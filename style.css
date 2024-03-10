@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #ffddd2;
+    text-align: center;
+    font-family: 'Honk', system-ui;
+}
+
+h1 {
+    font-size: 8vh;
+}
+
+.container {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.game {
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.box {
+    width: 14vw;
+    height: 20vh;
+    background-color: #83c5be;
+    margin: 5px;
+    border-width: 5px;
+    border-color: #1f2f2dc8;
+    border-radius: 10px;
+    box-shadow: 5px 5px 9px #006d77;
+    font-size: 9vh;
+    font-weight: 800;
+    color: #0d1f1d;
+}
+
+button {
+    background-color: #e29578;
+    color: #011116;
+    width: 9vw;
+    height: 5vh;
+    margin: bottom 5px;
+    ;
+    border-radius: 15px;
+    font-size: 3vh;
+    font-weight: 800;
+    font-family: 'Honk', system-ui;
+    font-family: 'Single Day', cursive;
+}
+
+.click:hover {
+    background-color: #011116;
+    color: #aae4f5;
+    box-shadow: 3px 3px 5px #284d56;
+}
+
+.msgbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 78vh;
+}
+
+p {
+    /* height: 30vh;
+    width: 90vw; */
+    font-size: 10vh;
+}
+
+.hide {
+    display: none;
+}
+
+header {
+    text-align: right;
+}
+
+#mode {
+    margin-right: 2px;
+    margin-top: 3px;
+}
+
+#mode:hover {
+    background-color: #011116;
+    color: #aae4f5;
+    box-shadow: 3px 3px 5px #284d56;
+}
+
+.dark {
+    background-color: #200a03;
+}
+
+.darkBox {
+    width: 14vw;
+    height: 20vh;
+    background-color: #d89d8a;
+    margin: 5px;
+    border-width: 5px;
+    border-color: #291c09;
+    border-radius: 10px;
+    box-shadow: 5px 5px 9px #6e3927;
+    font-size: 9vh;
+    font-weight: 800;
+    color: #0d1f1d;
+
+}
+
+.blue{
+    background-color: #0a161a;
+}
+
+.blueBox{
+    width: 14vw;
+    height: 20vh;
+    background-color: #808b8f;
+    margin: 5px;
+    border-width: 5px;
+    border-color: #6e9ca0;
+    border-radius: 10px;
+    box-shadow: 5px 5px 9px #446265e1;
+    font-size: 9vh;
+    font-weight: 800;
+    color: #0d1f1d;  
+}
+
+.green{
+    background-color: #FAF3DD;
+}
+
+.greenBox{
+    width: 14vw;
+    height: 20vh;
+    background-color: #b9cf9f;
+    margin: 5px;
+    border-width: 5px;
+    border-color: #45425A;
+    border-radius: 10px;
+    box-shadow: 5px 5px 9px #446265e1;
+    font-size: 9vh;
+    font-weight: 800;
+    color: #0d1f1d;  
+}
